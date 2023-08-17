@@ -1,5 +1,5 @@
 body {
-    background-color: #1f2029;
+    /* background-color: #1f2029; */
     color: #e8eaeb;
     font-size: 1em;
     font-family: 'Source Sans Pro', sans-serif;
@@ -76,4 +76,32 @@ a:hover,
 .act-container {
     border: #e8eaeb solid 2px;
     border-radius: 10px;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        .name-stage {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+
+            .name {
+                font-weight: bold;
+                font-size: large;
+                margin: 0;
+            }
+            .stage {
+                font-size: medium;
+                float: right;
+                margin: 0;
+            }
+        }
+
+        .timing {
+            font-size: medium;
+        }
+    }
 }
