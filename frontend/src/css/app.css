@@ -1,5 +1,5 @@
 body {
-    /* background-color: #1f2029; */
+    background-color: #1f2029;
     color: #e8eaeb;
     font-size: 1em;
     font-family: 'Source Sans Pro', sans-serif;
@@ -28,6 +28,9 @@ button,
     cursor: pointer;
     text-decoration: none;
     margin: 5px;
+}
+input {
+    font-size: 1em;
 }
 a,
 .link {
@@ -71,16 +74,40 @@ a:hover,
     justify-content: center;
     align-items: center;
     width: 80%;
+    height: 80%;
 }
 
 .act-container {
+    align-items: stretch;
+    flex: 1;
+
     border: #e8eaeb solid 2px;
     border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    user-select: none;
+    background-color: #393b4d;
+
+    min-width: 250px;
+    max-width: 250px;
+
+    .act-photo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .act-photo img {
+        display: block;
+        max-width: 250px;
+        max-height: 250px;
+        border-radius: 10px;
+    }
 
     .info {
         display: flex;
         flex-direction: column;
         flex: 1;
+        margin: 15px;
 
         .name-stage {
             display: flex;
@@ -92,16 +119,49 @@ a:hover,
                 font-weight: bold;
                 font-size: large;
                 margin: 0;
+                padding-right: 5px;
+                text-align: left;
             }
             .stage {
                 font-size: medium;
                 float: right;
+                padding-left: 5px;
                 margin: 0;
+                text-align: right;
             }
         }
 
         .timing {
+            text-align: center;
             font-size: medium;
         }
     }
+
+    &.selected {
+        /* Styles for the selected overlay */
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity as needed */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 3em;
+            border-radius: 10px; /* Adjust the border radius as needed */
+            content: '\2713'; /* Unicode character for checkmark */
+        }
+    }
+}
+
+.next-page-sticky {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 50px;
+    font-size: x-large;
 }

@@ -1,22 +1,31 @@
-import React from 'react';
+import React, { SyntheticEvent } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 type ActProps = {
     name: string;
     stage: string;
     timeStart: number;
     timeEnd: number;
+    selected?: boolean;
+    imageUrl?: string;
+    onClick?: React.MouseEventHandler<HTMLDivElement>;
 };
 
-const Act = ({ name, stage, timeStart, timeEnd }: ActProps) => {
-    const start = new Date(timeStart).toLocaleString('en-GB');
-    const end = new Date(timeEnd).toLocaleString('en-GB');
-
-    // https://react.dev/learn/sharing-state-between-components
+const Act = ({ name, imageUrl, stage, timeStart, timeEnd, selected, onClick }: ActProps) => {
+    const start = new Date(timeStart).toLocaleString('en-GB', {
+        weekday: 'long',
+        hour: '2-digit',
+        minute: '2-digit',
+    });
+    const end = new Date(timeEnd).toLocaleString('en-GB', {
+        hour: '2-digit',
+        minute: '2-digit',
+    });
 
     return (
-        <div className="act-container">
+        <div className={`act-container ${selected ? 'selected' : ''}`} onClick={onClick}>
             <div className="act-photo">
-                <img alt={name} />
+                <img src={imageUrl} alt={name} />
             </div>
             <div className="info">
                 <div className="name-stage">

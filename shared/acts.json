@@ -1,8 +1,1442 @@
 [
     {
+        "name": "Baby",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692900900000,
+        "endTime": 1692903000000
+    },
+    {
+        "name": "Panic Shack",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692904200000,
+        "endTime": 1692906300000
+    },
+    {
+        "name": "King No-One",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692907500000,
+        "endTime": 1692909900000
+    },
+    {
+        "name": "James Marriott",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692911700000,
+        "endTime": 1692914400000
+    },
+    {
+        "name": "Avatar: The Way Of Water",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692918000000,
+        "endTime": 1692928800000
+    },
+    {
+        "name": "Zoe London",
+        "stage": "LS23",
+        "startTime": 1692907200000,
+        "endTime": 1692912600000
+    },
+    {
+        "name": "Guiltybeatz",
+        "stage": "LS23",
+        "startTime": 1692912600000,
+        "endTime": 1692918000000
+    },
+    {
+        "name": "DJ Semtex",
+        "stage": "LS23",
+        "startTime": 1692918000000,
+        "endTime": 1692923400000
+    },
+    {
+        "name": "Sammy Virji",
+        "stage": "LS23",
+        "startTime": 1692923400000,
+        "endTime": 1692928800000
+    },
+    {
+        "name": "Reo",
+        "stage": "Anachronica",
+        "startTime": 1692907200000,
+        "endTime": 1692914400000
+    },
+    {
+        "name": "Felix CW",
+        "stage": "Anachronica",
+        "startTime": 1692914400000,
+        "endTime": 1692921600000
+    },
+    {
+        "name": "BP & Still Ryan",
+        "stage": "Anachronica",
+        "startTime": 1692921600000,
+        "endTime": 1692928800000
+    },
+    {
+        "name": "Beefy Melons",
+        "stage": "Piccadilly Party",
+        "startTime": 1692903600000,
+        "endTime": 1692916200000
+    },
+    {
+        "name": "TPD TV",
+        "stage": "Piccadilly Party",
+        "startTime": 1692916200000,
+        "endTime": 1692921600000
+    },
+    {
+        "name": "Danny Oliver",
+        "stage": "Piccadilly Party",
+        "startTime": 1692921600000,
+        "endTime": 1692928800000
+    },
+    {
+        "name": "Silent Disco King",
+        "stage": "Silent Disco",
+        "startTime": 1692910800000,
+        "endTime": 1692928800000
+    },
+    {
+        "name": "The Amazons",
+        "stage": "Main Stage East",
+        "startTime": 1692961200000,
+        "endTime": 1692963000000
+    },
+    {
+        "name": "Muna",
+        "stage": "Main Stage East",
+        "startTime": 1692965700000,
+        "endTime": 1692967500000
+    },
+    {
+        "name": "Bakar",
+        "stage": "Main Stage East",
+        "startTime": 1692970500000,
+        "endTime": 1692972300000
+    },
+    {
+        "name": "Rina Sawayama",
+        "stage": "Main Stage East",
+        "startTime": 1692975300000,
+        "endTime": 1692977100000
+    },
+    {
+        "name": "Declan Mckenna",
+        "stage": "Main Stage East",
+        "startTime": 1692980400000,
+        "endTime": 1692982500000
+    },
+    {
+        "name": "Steve Lacy",
+        "stage": "Main Stage East",
+        "startTime": 1692986400000,
+        "endTime": 1692988800000
+    },
+    {
+        "name": "Billie Eilish",
+        "stage": "Main Stage East",
+        "startTime": 1692994800000,
+        "endTime": 1693000200000
+    },
+    {
+        "name": "Hot Milk",
+        "stage": "Main Stage West",
+        "startTime": 1692963600000,
+        "endTime": 1692965100000
+    },
+    {
+        "name": "The Snuts",
+        "stage": "Main Stage West",
+        "startTime": 1692968100000,
+        "endTime": 1692969900000
+    },
+    {
+        "name": "Don Broco",
+        "stage": "Main Stage West",
+        "startTime": 1692972900000,
+        "endTime": 1692974700000
+    },
+    {
+        "name": "Lil Tjay",
+        "stage": "Main Stage West",
+        "startTime": 1692977700000,
+        "endTime": 1692979800000
+    },
+    {
+        "name": "Becky Hill",
+        "stage": "Main Stage West",
+        "startTime": 1692983100000,
+        "endTime": 1692985800000
+    },
+    {
+        "name": "Imagine Dragons",
+        "stage": "Main Stage West",
+        "startTime": 1692989400000,
+        "endTime": 1692994200000
+    },
+    {
+        "name": "Wallice",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692961200000,
+        "endTime": 1692962700000
+    },
+    {
+        "name": "Joesef",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692963900000,
+        "endTime": 1692965700000
+    },
+    {
+        "name": "Fousheé",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692966900000,
+        "endTime": 1692968700000
+    },
+    {
+        "name": "Eliza Rose",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692969900000,
+        "endTime": 1692972300000
+    },
+    {
+        "name": "Austin Millz",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692972900000,
+        "endTime": 1692975000000
+    },
+    {
+        "name": "Harriet Jaxxon",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692975600000,
+        "endTime": 1692978000000
+    },
+    {
+        "name": "Charlie Tee",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692978600000,
+        "endTime": 1692981000000
+    },
+    {
+        "name": "Metrik",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692981600000,
+        "endTime": 1692984600000
+    },
+    {
+        "name": "Friction",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692985200000,
+        "endTime": 1692988800000
+    },
+    {
+        "name": "SHY FX",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692989400000,
+        "endTime": 1692993000000
+    },
+    {
+        "name": "Andy C",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1692994500000,
+        "endTime": 1692999900000
+    },
+    {
+        "name": "English Teahcer",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692961200000,
+        "endTime": 1692962400000
+    },
+    {
+        "name": "Royel Otis",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692963600000,
+        "endTime": 1692964800000
+    },
+    {
+        "name": "Artemas",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692966000000,
+        "endTime": 1692967500000
+    },
+    {
+        "name": "The Royston Club",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692968700000,
+        "endTime": 1692970200000
+    },
+    {
+        "name": "Ethel Cain",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692971400000,
+        "endTime": 1692973200000
+    },
+    {
+        "name": "Dylan John Thomas",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692974400000,
+        "endTime": 1692976200000
+    },
+    {
+        "name": "Giant Rooks",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692977400000,
+        "endTime": 1692979200000
+    },
+    {
+        "name": "Mae Stephens",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692980400000,
+        "endTime": 1692982200000
+    },
+    {
+        "name": "Tom Odell",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692983400000,
+        "endTime": 1692985800000
+    },
+    {
+        "name": "COIN",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692987000000,
+        "endTime": 1692989400000
+    },
+    {
+        "name": "Vistas",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692990600000,
+        "endTime": 1692992700000
+    },
+    {
+        "name": "TV Girl",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692993900000,
+        "endTime": 1692996000000
+    },
+    {
+        "name": "Lovejoy",
+        "stage": "Festival Republic Stage",
+        "startTime": 1692997200000,
+        "endTime": 1693000800000
+    },
+    {
+        "name": "Mya Craig",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692967200000,
+        "endTime": 1692969000000
+    },
+    {
+        "name": "Temz",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692970200000,
+        "endTime": 1692972000000
+    },
+    {
+        "name": "Mnelia",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692973200000,
+        "endTime": 1692975000000
+    },
+    {
+        "name": "Artan",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692976200000,
+        "endTime": 1692978000000
+    },
+    {
+        "name": "J Fado",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692979200000,
+        "endTime": 1692981000000
+    },
+    {
+        "name": "Lost Girl",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692982200000,
+        "endTime": 1692984000000
+    },
+    {
+        "name": "Dréya Mac",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692985200000,
+        "endTime": 1692987300000
+    },
+    {
+        "name": "Songer",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692988500000,
+        "endTime": 1692991200000
+    },
+    {
+        "name": "Lancey Foux",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692992400000,
+        "endTime": 1692995100000
+    },
+    {
+        "name": "K-Trap",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1692997200000,
+        "endTime": 1692999900000
+    },
+    {
+        "name": "Shorts",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693004400000,
+        "endTime": 1693005900000
+    },
+    {
+        "name": "Bullet Train",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693005900000,
+        "endTime": 1693015200000
+    },
+    {
+        "name": "Beaux",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1692961200000,
+        "endTime": 1692963000000
+    },
+    {
+        "name": "The Goa Express",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1692964800000,
+        "endTime": 1692966600000
+    },
+    {
+        "name": "Twst",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1692968400000,
+        "endTime": 1692970200000
+    },
+    {
+        "name": "Chalk",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1692972000000,
+        "endTime": 1692973800000
+    },
+    {
+        "name": "Pritt",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1692975600000,
+        "endTime": 1692977400000
+    },
+    {
+        "name": "Grandmas House",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1692979200000,
+        "endTime": 1692981000000
+    },
+    {
+        "name": "TS Lagga",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1692982800000,
+        "endTime": 1692984600000
+    },
+    {
+        "name": "L'Objectif",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1692986400000,
+        "endTime": 1692988200000
+    },
+    {
+        "name": "Matilda Mann",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1692990000000,
+        "endTime": 1692992400000
+    },
+    {
+        "name": "TBA - Joel Dommett, Russell Kane, The Comedy Store, Chris Washington, Daliso Chaponda, Fern Brady, Laura Lexx, Mark Oliver, Jack Skipper, Sara Schaefer, Thanyia Moore",
+        "stage": "Alternative Stage",
+        "startTime": 1692961200000,
+        "endTime": 1692984600000
+    },
+    {
+        "name": "Panel: Climate + Health",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1692964800000,
+        "endTime": 1692966600000
+    },
+    {
+        "name": "Panel: Uni Of Manchester Rent Strike",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1692968400000,
+        "endTime": 1692970200000
+    },
+    {
+        "name": "Nightbus",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1692972000000,
+        "endTime": 1692973800000
+    },
+    {
+        "name": "Morning Crush",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1692975600000,
+        "endTime": 1692977400000
+    },
+    {
+        "name": "Foxglove",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1692979200000,
+        "endTime": 1692981000000
+    },
+    {
+        "name": "Mollie Coddled",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1692982800000,
+        "endTime": 1692984600000
+    },
+    {
+        "name": "Uninvited",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1692986400000,
+        "endTime": 1692988800000
+    },
+    {
+        "name": "Harriet Jaxxon",
+        "stage": "LS23",
+        "startTime": 1692997200000,
+        "endTime": 1693000800000
+    },
+    {
+        "name": "Gentlemens Club",
+        "stage": "LS23",
+        "startTime": 1693000800000,
+        "endTime": 1693005300000
+    },
+    {
+        "name": "Andy C",
+        "stage": "LS23",
+        "startTime": 1693005300000,
+        "endTime": 1693010700000
+    },
+    {
+        "name": "Georgie Riot",
+        "stage": "LS23",
+        "startTime": 1693010700000,
+        "endTime": 1693015200000
+    },
+    {
+        "name": "DJ Flight",
+        "stage": "Anachronica",
+        "startTime": 1692997200000,
+        "endTime": 1693006200000
+    },
+    {
+        "name": "Bakey",
+        "stage": "Anachronica",
+        "startTime": 1693006200000,
+        "endTime": 1693015200000
+    },
+    {
+        "name": "Charlie On Sound",
+        "stage": "Piccadilly Party",
+        "startTime": 1692997200000,
+        "endTime": 1693006200000
+    },
+    {
+        "name": "DJ James Holland",
+        "stage": "Piccadilly Party",
+        "startTime": 1693006200000,
+        "endTime": 1693015200000
+    },
+    {
+        "name": "Doktored",
+        "stage": "Piccadilly Party",
+        "startTime": 1693015200000,
+        "endTime": 1693026000000
+    },
+    {
+        "name": "Silent Disco King",
+        "stage": "Silent Disco",
+        "startTime": 1692997200000,
+        "endTime": 1693015200000
+    },
+    {
+        "name": "Yard Act",
+        "stage": "Main Stage East",
+        "startTime": 1693050300000,
+        "endTime": 1693052100000
+    },
+    {
+        "name": "Tion Wayne",
+        "stage": "Main Stage East",
+        "startTime": 1693055100000,
+        "endTime": 1693056900000
+    },
+    {
+        "name": "Mimi Webb",
+        "stage": "Main Stage East",
+        "startTime": 1693060200000,
+        "endTime": 1693062300000
+    },
+    {
+        "name": "Wet Leg",
+        "stage": "Main Stage East",
+        "startTime": 1693065600000,
+        "endTime": 1693067700000
+    },
+    {
+        "name": "Loyle Carner",
+        "stage": "Main Stage East",
+        "startTime": 1693072200000,
+        "endTime": 1693075200000
+    },
+    {
         "name": "Sam Fender",
-        "stage": "The Main One",
-        "startTime": 200,
-        "endTime": 400
+        "stage": "Main Stage East",
+        "startTime": 1693081200000,
+        "endTime": 1693086600000
+    },
+    {
+        "name": "Frank Turner & The Sleeping Souls",
+        "stage": "Main Stage West",
+        "startTime": 1693047600000,
+        "endTime": 1693049700000
+    },
+    {
+        "name": "Sea Girls",
+        "stage": "Main Stage West",
+        "startTime": 1693052700000,
+        "endTime": 1693054500000
+    },
+    {
+        "name": "You Me At Six",
+        "stage": "Main Stage West",
+        "startTime": 1693057500000,
+        "endTime": 1693059600000
+    },
+    {
+        "name": "Trippie Redd",
+        "stage": "Main Stage West",
+        "startTime": 1693062900000,
+        "endTime": 1693065000000
+    },
+    {
+        "name": "Bicep (Live)",
+        "stage": "Main Stage West",
+        "startTime": 1693068300000,
+        "endTime": 1693071600000
+    },
+    {
+        "name": "Foals",
+        "stage": "Main Stage West",
+        "startTime": 1693075800000,
+        "endTime": 1693080600000
+    },
+    {
+        "name": "Noisy",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693047600000,
+        "endTime": 1693049400000
+    },
+    {
+        "name": "The Murder Capital",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693050600000,
+        "endTime": 1693052400000
+    },
+    {
+        "name": "Mother Mother",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693053600000,
+        "endTime": 1693055400000
+    },
+    {
+        "name": "Nessa Barrett",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693056600000,
+        "endTime": 1693058400000
+    },
+    {
+        "name": "Gryffin",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693059600000,
+        "endTime": 1693062000000
+    },
+    {
+        "name": "Soulecta",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693062600000,
+        "endTime": 1693065000000
+    },
+    {
+        "name": "Koven",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693065600000,
+        "endTime": 1693068600000
+    },
+    {
+        "name": "Vibe Chemistry",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693069200000,
+        "endTime": 1693072200000
+    },
+    {
+        "name": "venbee",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693072800000,
+        "endTime": 1693075800000
+    },
+    {
+        "name": "Hedex",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693076400000,
+        "endTime": 1693080000000
+    },
+    {
+        "name": "Sub Focus b2b Dimension (w/ ID)",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693080900000,
+        "endTime": 1693086300000
+    },
+    {
+        "name": "Bilk",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693047600000,
+        "endTime": 1693049400000
+    },
+    {
+        "name": "Lauran Hibberd",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693050600000,
+        "endTime": 1693052400000
+    },
+    {
+        "name": "Himalayas",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693053600000,
+        "endTime": 1693055400000
+    },
+    {
+        "name": "The Last Dinner Party",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693056600000,
+        "endTime": 1693058400000
+    },
+    {
+        "name": "Jesse Jo Stark",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693059600000,
+        "endTime": 1693061400000
+    },
+    {
+        "name": "Games We Play",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693062600000,
+        "endTime": 1693064400000
+    },
+    {
+        "name": "Pinkshift",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693065600000,
+        "endTime": 1693067400000
+    },
+    {
+        "name": "Magnolia Park",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693068600000,
+        "endTime": 1693070700000
+    },
+    {
+        "name": "Knocked Loose",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693071900000,
+        "endTime": 1693074000000
+    },
+    {
+        "name": "Normandie",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693075200000,
+        "endTime": 1693077300000
+    },
+    {
+        "name": "Yonaka",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693078500000,
+        "endTime": 1693080900000
+    },
+    {
+        "name": "Palaye Royale",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693082700000,
+        "endTime": 1693086300000
+    },
+    {
+        "name": "BZ",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693054800000,
+        "endTime": 1693056600000
+    },
+    {
+        "name": "Killowen",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693057800000,
+        "endTime": 1693059600000
+    },
+    {
+        "name": "Shasimone",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693060800000,
+        "endTime": 1693062600000
+    },
+    {
+        "name": "Finn Foxell",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693063800000,
+        "endTime": 1693065600000
+    },
+    {
+        "name": "DJ Target",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693066800000,
+        "endTime": 1693070400000
+    },
+    {
+        "name": "Skaiwater",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693071600000,
+        "endTime": 1693073400000
+    },
+    {
+        "name": "D Double E",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693074600000,
+        "endTime": 1693077300000
+    },
+    {
+        "name": "Sainté",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693078800000,
+        "endTime": 1693081500000
+    },
+    {
+        "name": "Meekz",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693083600000,
+        "endTime": 1693086300000
+    },
+    {
+        "name": "Shorts",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693090800000,
+        "endTime": 1693092300000
+    },
+    {
+        "name": "Everything Everywhere All At Once",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693092300000,
+        "endTime": 1693100400000
+    },
+    {
+        "name": "Shorts",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693100400000,
+        "endTime": 1693101600000
+    },
+    {
+        "name": "Cole Bleu",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693047600000,
+        "endTime": 1693049400000
+    },
+    {
+        "name": "Haunt The Woods",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693051200000,
+        "endTime": 1693053000000
+    },
+    {
+        "name": "Frankie Beetlestone",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693054800000,
+        "endTime": 1693056600000
+    },
+    {
+        "name": "Blazer Boccle",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693058400000,
+        "endTime": 1693060200000
+    },
+    {
+        "name": "Lexie Carroll",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693062000000,
+        "endTime": 1693063800000
+    },
+    {
+        "name": "Charlotte Plank",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693065600000,
+        "endTime": 1693067400000
+    },
+    {
+        "name": "Frozemode",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693069200000,
+        "endTime": 1693071000000
+    },
+    {
+        "name": "Antony Szmierek",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693072800000,
+        "endTime": 1693074600000
+    },
+    {
+        "name": "Alt Blk Era",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693076400000,
+        "endTime": 1693078800000
+    },
+    {
+        "name": "TBA - Joel Dommett, Russell Kane, The Comedy Store, Chris Washington, Daliso Chaponda, Fern Brady, Laura Lexx, Mark Oliver, Jack Skipper, Sara Schaefer, Thanyia Moore",
+        "stage": "Alternative Stage",
+        "startTime": 1693047600000,
+        "endTime": 1693071000000
+    },
+    {
+        "name": "Panel: How Creative Industries Can Drive Change",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693053000000,
+        "endTime": 1693056000000
+    },
+    {
+        "name": "Martha Jean",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693057800000,
+        "endTime": 1693059600000
+    },
+    {
+        "name": "Molly Burman",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693061400000,
+        "endTime": 1693063200000
+    },
+    {
+        "name": "Coupdekat",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693065000000,
+        "endTime": 1693066800000
+    },
+    {
+        "name": "Izzi De-Rosa",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693068600000,
+        "endTime": 1693071000000
+    },
+    {
+        "name": "Charlotte Plank",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693072800000,
+        "endTime": 1693075500000
+    },
+    {
+        "name": "Emma Forster",
+        "stage": "LS23",
+        "startTime": 1693083600000,
+        "endTime": 1693087200000
+    },
+    {
+        "name": "Airwolf Paradise",
+        "stage": "LS23",
+        "startTime": 1693087200000,
+        "endTime": 1693090800000
+    },
+    {
+        "name": "Dom Dolla",
+        "stage": "LS23",
+        "startTime": 1693090800000,
+        "endTime": 1693096200000
+    },
+    {
+        "name": "Obskür",
+        "stage": "LS23",
+        "startTime": 1693096200000,
+        "endTime": 1693101600000
+    },
+    {
+        "name": "TAÑ",
+        "stage": "Anachronica",
+        "startTime": 1693083600000,
+        "endTime": 1693092600000
+    },
+    {
+        "name": "Dr Dubplate",
+        "stage": "Anachronica",
+        "startTime": 1693092600000,
+        "endTime": 1693101600000
+    },
+    {
+        "name": "Dave Duracell",
+        "stage": "Piccadilly Party",
+        "startTime": 1693083600000,
+        "endTime": 1693094400000
+    },
+    {
+        "name": "Rachel Hume",
+        "stage": "Piccadilly Party",
+        "startTime": 1693094400000,
+        "endTime": 1693105200000
+    },
+    {
+        "name": "Danny Oliver",
+        "stage": "Piccadilly Party",
+        "startTime": 1693105200000,
+        "endTime": 1693112400000
+    },
+    {
+        "name": "Silent Disco King",
+        "stage": "Silent Disco",
+        "startTime": 1693083600000,
+        "endTime": 1693101600000
+    },
+    {
+        "name": "Baby Queen",
+        "stage": "Main Stage East",
+        "startTime": 1693136400000,
+        "endTime": 1693138200000
+    },
+    {
+        "name": "Holly Humberstone",
+        "stage": "Main Stage East",
+        "startTime": 1693141200000,
+        "endTime": 1693143000000
+    },
+    {
+        "name": "Inhaler",
+        "stage": "Main Stage East",
+        "startTime": 1693146000000,
+        "endTime": 1693147800000
+    },
+    {
+        "name": "Nothing But Thieves",
+        "stage": "Main Stage East",
+        "startTime": 1693151400000,
+        "endTime": 1693153800000
+    },
+    {
+        "name": "Central Cee",
+        "stage": "Main Stage East",
+        "startTime": 1693157400000,
+        "endTime": 1693160400000
+    },
+    {
+        "name": "The Killers",
+        "stage": "Main Stage East",
+        "startTime": 1693167000000,
+        "endTime": 1693173000000
+    },
+    {
+        "name": "Jamie Webster",
+        "stage": "Main Stage West",
+        "startTime": 1693134000000,
+        "endTime": 1693135800000
+    },
+    {
+        "name": "Arlo Parks",
+        "stage": "Main Stage West",
+        "startTime": 1693138800000,
+        "endTime": 1693140600000
+    },
+    {
+        "name": "Easy Life",
+        "stage": "Main Stage West",
+        "startTime": 1693143600000,
+        "endTime": 1693145400000
+    },
+    {
+        "name": "Chase Atlantic",
+        "stage": "Main Stage West",
+        "startTime": 1693148400000,
+        "endTime": 1693150800000
+    },
+    {
+        "name": "Knucks",
+        "stage": "Main Stage West",
+        "startTime": 1693154400000,
+        "endTime": 1693156800000
+    },
+    {
+        "name": "The 1975",
+        "stage": "Main Stage West",
+        "startTime": 1693161000000,
+        "endTime": 1693166400000
+    },
+    {
+        "name": "Sigma & Friends (Silent Disco)",
+        "stage": "Main Stage West",
+        "startTime": 1693173600000,
+        "endTime": 1693180800000
+    },
+    {
+        "name": "Somebody's Child",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693134000000,
+        "endTime": 1693135200000
+    },
+    {
+        "name": "Nieve Ella",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693136400000,
+        "endTime": 1693138200000
+    },
+    {
+        "name": "Frankie Stew & Harvey Gunn",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693139400000,
+        "endTime": 1693141200000
+    },
+    {
+        "name": "Caity Baser",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693142400000,
+        "endTime": 1693144200000
+    },
+    {
+        "name": "Georgia",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693145400000,
+        "endTime": 1693147200000
+    },
+    {
+        "name": "TIBASKO",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693148400000,
+        "endTime": 1693151400000
+    },
+    {
+        "name": "Jaguar",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693152000000,
+        "endTime": 1693155000000
+    },
+    {
+        "name": "Girls Don't Sync",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693155600000,
+        "endTime": 1693158600000
+    },
+    {
+        "name": "Sammy Virji",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693159200000,
+        "endTime": 1693162200000
+    },
+    {
+        "name": "LF System",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693162800000,
+        "endTime": 1693166100000
+    },
+    {
+        "name": "MK",
+        "stage": "BBC Radio 1 Dance Stage",
+        "startTime": 1693167300000,
+        "endTime": 1693172700000
+    },
+    {
+        "name": "Anchor Lane",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693134000000,
+        "endTime": 1693135500000
+    },
+    {
+        "name": "Fat Dog",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693136700000,
+        "endTime": 1693138200000
+    },
+    {
+        "name": "Graphic Nature",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693139400000,
+        "endTime": 1693140900000
+    },
+    {
+        "name": "Ekkstacy",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693142100000,
+        "endTime": 1693143900000
+    },
+    {
+        "name": "High Vis",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693145100000,
+        "endTime": 1693146900000
+    },
+    {
+        "name": "Scowl",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693148100000,
+        "endTime": 1693149900000
+    },
+    {
+        "name": "Zand",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693151100000,
+        "endTime": 1693152900000
+    },
+    {
+        "name": "Mothica",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693154100000,
+        "endTime": 1693155900000
+    },
+    {
+        "name": "Joey Valence & Brae",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693157100000,
+        "endTime": 1693159200000
+    },
+    {
+        "name": "Kennyhoopla",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693160700000,
+        "endTime": 1693163100000
+    },
+    {
+        "name": "Sleep Token",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693164300000,
+        "endTime": 1693167300000
+    },
+    {
+        "name": "Yung Lean",
+        "stage": "Festival Republic Stage",
+        "startTime": 1693169100000,
+        "endTime": 1693172700000
+    },
+    {
+        "name": "Malaki",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693135200000,
+        "endTime": 1693137000000
+    },
+    {
+        "name": "Proph",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693138200000,
+        "endTime": 1693140000000
+    },
+    {
+        "name": "Queen Millz",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693141200000,
+        "endTime": 1693143000000
+    },
+    {
+        "name": "Jordy",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693144200000,
+        "endTime": 1693146000000
+    },
+    {
+        "name": "Kenny Allstar",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693147200000,
+        "endTime": 1693150800000
+    },
+    {
+        "name": "JBEE",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693152000000,
+        "endTime": 1693153800000
+    },
+    {
+        "name": "Midwxst",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693155000000,
+        "endTime": 1693156800000
+    },
+    {
+        "name": "Nippa",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693158000000,
+        "endTime": 1693159800000
+    },
+    {
+        "name": "Ken Carson",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693161000000,
+        "endTime": 1693163400000
+    },
+    {
+        "name": "Cordae",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693164600000,
+        "endTime": 1693167300000
+    },
+    {
+        "name": "Clavish",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693169100000,
+        "endTime": 1693172700000
+    },
+    {
+        "name": "Shorts",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693177200000,
+        "endTime": 1693178700000
+    },
+    {
+        "name": "Cocaine Bear",
+        "stage": "BBC Radio 1Xtra Stage",
+        "startTime": 1693178700000,
+        "endTime": 1693184400000
+    },
+    {
+        "name": "Bellah Mae",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693134000000,
+        "endTime": 1693135800000
+    },
+    {
+        "name": "Hannah Grae",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693137600000,
+        "endTime": 1693139400000
+    },
+    {
+        "name": "ADMT",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693141200000,
+        "endTime": 1693143000000
+    },
+    {
+        "name": "Pixey",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693144800000,
+        "endTime": 1693146600000
+    },
+    {
+        "name": "Native James",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693148400000,
+        "endTime": 1693150200000
+    },
+    {
+        "name": "Viddt",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693152000000,
+        "endTime": 1693153800000
+    },
+    {
+        "name": "Lucia & The Best Boys",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693155600000,
+        "endTime": 1693157400000
+    },
+    {
+        "name": "Only The Poets",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693159200000,
+        "endTime": 1693161000000
+    },
+    {
+        "name": "Hotwax",
+        "stage": "BBC Introducing Stage",
+        "startTime": 1693162800000,
+        "endTime": 1693165200000
+    },
+    {
+        "name": "TBA - Joel Dommett, Russell Kane, The Comedy Store, Chris Washington, Daliso Chaponda, Fern Brady, Laura Lexx, Mark Oliver, Jack Skipper, Sara Schaefer, Thanyia Moore",
+        "stage": "Alternative Stage",
+        "startTime": 1693134000000,
+        "endTime": 1693157400000
+    },
+    {
+        "name": "Panel: Making Music Photography Accessible",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693137600000,
+        "endTime": 1693139400000
+    },
+    {
+        "name": "Panel: Queer Climate Justice",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693141200000,
+        "endTime": 1693143000000
+    },
+    {
+        "name": "The Redroom",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693144800000,
+        "endTime": 1693146600000
+    },
+    {
+        "name": "Lunarca",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693148400000,
+        "endTime": 1693150200000
+    },
+    {
+        "name": "Cathy Kio",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693152000000,
+        "endTime": 1693153800000
+    },
+    {
+        "name": "Tinyumbrellas",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693155600000,
+        "endTime": 1693157400000
+    },
+    {
+        "name": "Jedward",
+        "stage": "Youth Climate Bus Stage",
+        "startTime": 1693159200000,
+        "endTime": 1693161900000
+    },
+    {
+        "name": "Millie Cotton",
+        "stage": "LS23",
+        "startTime": 1693170000000,
+        "endTime": 1693173600000
+    },
+    {
+        "name": "Silk",
+        "stage": "LS23",
+        "startTime": 1693173600000,
+        "endTime": 1693178100000
+    },
+    {
+        "name": "Jaguar",
+        "stage": "LS23",
+        "startTime": 1693178100000,
+        "endTime": 1693182600000
+    },
+    {
+        "name": "Girls Don't Sync",
+        "stage": "LS23",
+        "startTime": 1693182600000,
+        "endTime": 1693188000000
+    },
+    {
+        "name": "Y U QT",
+        "stage": "Anachronica",
+        "startTime": 1693170000000,
+        "endTime": 1693179000000
+    },
+    {
+        "name": "Silva Bumpa",
+        "stage": "Anachronica",
+        "startTime": 1693179000000,
+        "endTime": 1693188000000
+    },
+    {
+        "name": "Beefy Melons",
+        "stage": "Piccadilly Party",
+        "startTime": 1693170000000,
+        "endTime": 1693179000000
+    },
+    {
+        "name": "Danny Mirfield",
+        "stage": "Piccadilly Party",
+        "startTime": 1693179000000,
+        "endTime": 1693188000000
+    },
+    {
+        "name": "Eddie Kerr",
+        "stage": "Piccadilly Party",
+        "startTime": 1693188000000,
+        "endTime": 1693198800000
     }
 ]
