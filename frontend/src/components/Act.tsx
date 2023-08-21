@@ -33,7 +33,7 @@ const Act = ({ name, imageUrl, stage, timeStart, timeEnd, selected, onClick, mat
             title={clashing && `Clashes with ${clashing.join(', ')}`}
         >
             <div className="act-photo">
-                <img src={imageUrl} alt={name} />
+                <img loading="lazy" src={imageUrl} alt={name} />
             </div>
             <div className="info">
                 <div className="name-stage">

@@ -20,7 +20,7 @@ const SubmitToNewRoom = () => {
     return (
         <div>
             <h1 className="h-center-text">Submit Selected Acts</h1>
-            <div className="centered">
+            <div className="centered full-view-height">
                 <h2>Name</h2>
                 <input name="nameInput" onChange={(e) => setNameInput(e.target.value)} />
                 <button onClick={() => newResults()}>Submit</button>

@@ -20,7 +20,6 @@ app.use((req, res, next) => {
 
 app.post('/create-room', async (req: Request, res: Response) => {
     const { selectedActs, name } = req.body;
-    console.log({ selectedActs, name });
 
     let continueRoom = true;
     let roomNumber;
@@ -34,7 +33,8 @@ app.post('/create-room', async (req: Request, res: Response) => {
         }
     }
 
-    console.log(roomNumber);
+    console.log('create-room', { name, roomNumber, selectedActs });
+
     db.push(`/${roomNumber}`, {
         [name]: selectedActs,
     });
@@ -44,15 +44,16 @@ app.post('/create-room', async (req: Request, res: Response) => {
 
 app.post('/add-to-room', async (req: Request, res: Response) => {
     const { selectedActs, name, roomNumber } = req.body;
-    console.log({ selectedActs, name, roomNumber });
 
     try {
         const room = await db.getData(`/${roomNumber}`);
+
+        console.log('add-to-room', { name, roomNumber, selectedActs });
+
         db.push(`/${roomNumber}`, {
             ...room,
             [name]: selectedActs,
         });
-        console.log(roomNumber);
     } catch (err) {
         return res.sendStatus(404);
     }
@@ -95,7 +96,7 @@ app.get('/results/:roomId', async (req: Request, res: Response) => {
             }
         }
 
-        console.log(clashingActs);
+        console.log('results/:roomId', { room, matchingActs, clashingActs });
 
         return res.json({ filteredActs, room, matchingActs, clashingActs });
     } catch (err) {
@@ -113,7 +114,7 @@ app.use((req, res) => {
 });
 
 app.listen(port, async () => {
-    console.log(`AllahShazam server listening on port ${port}`);
+    console.log(`Leeds Fest Pather server listening on port ${port}`);
 });
 
 export default app;

@@ -1,11 +1,13 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { apiUrl } from '../utils';
 import type acts from '../shared/acts.json';
 import Act from '../components/Act';
+import { sortAct } from '../utils/utils';
 
 const Results = () => {
+    const navigate = useNavigate();
     const { roomId } = useParams();
     const [loading, setLoading] = useState(true);
     const [selectedActs, setSelectedActs] = useState<Record<string, typeof acts>>({});
@@ -39,6 +41,10 @@ const Results = () => {
         }
     };
 
+    const useSelections = (personActs: typeof acts, person: string) => {
+        navigate('/select-acts', { state: { acts: personActs.map((act) => act.name), room: roomId, person } });
+    };
+
     useEffect(() => {
         getResults().catch((err) => console.error(err));
     }, []);
@@ -53,12 +59,14 @@ const Results = () => {
             <div>
                 {personActsEntries.map(([person, acts]) => {
                     return (
-                        <div key={person}>
+                        <div className="centered" key={person}>
                             <div>
-                                <h2 key={person}>{person}</h2>
+                                <h2 key={person}>
+                                    {person} <button onClick={() => useSelections(acts, person)}>✏️</button>
+                                </h2>
                             </div>
                             <div className="content">
-                                {acts.map((act, index) => (
+                                {sortAct(acts).map((act, index) => (
                                     <Act
                                         key={`${person}-${act.name}-${index}`}
                                         name={act.name}

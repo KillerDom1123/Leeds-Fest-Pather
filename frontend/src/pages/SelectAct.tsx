@@ -1,13 +1,36 @@
 import React, { useState } from 'react';
 import Act from '../components/Act';
 import acts from '../shared/acts.json';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { submitToExistingResults } from '../utils/api';
+import { sortAct } from '../utils/utils';
 
-console.log(acts);
+type State = {
+    state: {
+        acts: string[];
+        room: number;
+        person: string;
+    };
+};
 
 const SelectAct = () => {
     const navigate = useNavigate();
+    const { state }: State = useLocation();
     const [selectedActs, setSelectedActs] = useState<string[]>([]);
+    const [checkedState, setCheckedState] = useState(false);
+
+    const [forPerson, setForPerson] = useState<string | undefined>(undefined);
+    const [forRoom, setForRoom] = useState<number | undefined>(undefined);
+
+    if (!checkedState) {
+        if (state) {
+            setSelectedActs(state.acts);
+            setForPerson(state.person);
+            setForRoom(state.room);
+        }
+
+        setCheckedState(true);
+    }
 
     const actOnClick = (name: string) => {
         const currentActs = [...selectedActs];
@@ -30,10 +53,19 @@ const SelectAct = () => {
         return 0;
     });
 
-    const goToSubmit = () => {
-        navigate('/submit-acts', {
-            state: selectedActs,
-        });
+    const goToSubmit = async () => {
+        if (forPerson && forRoom) {
+            try {
+                const resp = await submitToExistingResults(selectedActs, forPerson, String(forRoom));
+                navigate(`/results/${resp.data.roomNumber}`);
+            } catch (err) {
+                console.error(err);
+            }
+        } else {
+            navigate('/submit-acts', {
+                state: selectedActs,
+            });
+        }
     };
 
     return (
@@ -41,7 +73,7 @@ const SelectAct = () => {
             <h1 className="h-center-text">Select Acts</h1>
             <div className="centered">
                 <div className="content">
-                    {orderedActs.map((act, index) => {
+                    {sortAct(acts).map((act, index) => {
                         return (
                             <Act
                                 key={`${act.name}-${index}`}
@@ -58,7 +90,7 @@ const SelectAct = () => {
                 </div>
             </div>
             <div className="next-page-sticky">
-                <button onClick={() => goToSubmit()}>Submit</button>
+                <button onClick={() => goToSubmit()}>Submit {selectedActs.length} Acts</button>
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ const SubmitSelection = () => {
     return (
         <div>
             <h1 className="h-center-text">Submit Selected Acts</h1>
-            <div className="centered">
+            <div className="centered full-view-height">
                 <button onClick={() => navigate('/submit-new-room', { state })}>Create New Results Room</button>
                 <button onClick={() => navigate('/submit-existing-room', { state })}>
                     Submit To Existing Results Room

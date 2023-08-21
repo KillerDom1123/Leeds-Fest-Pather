@@ -48,7 +48,6 @@ a:hover,
 
 .h-center-text {
     margin-top: 30px;
-    position: absolute;
     text-align: center;
     left: 0;
     right: 0;
@@ -61,8 +60,11 @@ a:hover,
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     flex-direction: column;
+}
+
+.full-view-height {
+    height: 100vh;
 }
 
 .content {
@@ -174,4 +176,8 @@ a:hover,
     right: 0;
     margin: 50px;
     font-size: x-large;
+}
+
+.absolute {
+    position: absolute;
 }

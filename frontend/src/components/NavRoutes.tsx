@@ -6,6 +6,7 @@ import SubmitSelection from '../pages/SubmitSelection';
 import SubmitToExistingRoom from '../pages/SubmitToExistingRoom';
 import SubmitToNewRoom from '../pages/SubmitToNewRoom';
 import Results from '../pages/Results';
+import GoToResults from '../pages/GoToResults';
 
 const NavRoutes = () => {
     return (
@@ -15,6 +16,7 @@ const NavRoutes = () => {
             <Route path="/submit-acts" element={<SubmitSelection />} />
             <Route path="/submit-new-room" element={<SubmitToNewRoom />} />
             <Route path="/submit-existing-room" element={<SubmitToExistingRoom />} />
+            <Route path="/go-to-room" element={<GoToResults />} />
             <Route path="/results/:roomId" element={<Results />} />
         </Routes>
     );

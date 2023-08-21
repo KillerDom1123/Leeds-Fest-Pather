@@ -1,7 +1,6 @@
-import axios from 'axios';
 import React, { useState } from 'react';
-import { apiUrl } from '../utils';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { submitToExistingResults } from '../utils/api';
 
 const SubmitToExistingRoom = () => {
     const navigate = useNavigate();
@@ -11,11 +10,7 @@ const SubmitToExistingRoom = () => {
 
     const existingResults = async () => {
         try {
-            const resp = await axios.post(`${apiUrl}/add-to-room`, {
-                selectedActs: state,
-                name: nameInput,
-                roomNumber: roomInput,
-            });
+            const resp = await submitToExistingResults(state, nameInput!, roomInput!);
             navigate(`/results/${resp.data.roomNumber}`);
         } catch (err) {
             console.error(err);
@@ -25,7 +20,7 @@ const SubmitToExistingRoom = () => {
     return (
         <div>
             <h1 className="h-center-text">Submit Selected Acts</h1>
-            <div className="centered">
+            <div className="centered full-view-height">
                 <h2>Room Code</h2>
                 <input name="roomInput" onChange={(e) => setRoomInput(e.target.value)} />
                 <h2>Name</h2>
