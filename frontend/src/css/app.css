@@ -158,6 +158,16 @@ a:hover,
     }
 }
 
+.act-container.matching {
+    border-color: #19de19;
+    border-width: 3px;
+}
+
+.act-container.clashing {
+    border-color: #da1717;
+    border-width: 3px;
+}
+
 .next-page-sticky {
     position: fixed;
     bottom: 0;

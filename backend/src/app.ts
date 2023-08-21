@@ -65,16 +65,41 @@ app.get('/results/:roomId', async (req: Request, res: Response) => {
 
     try {
         const room = (await db.getData(`/${roomId}`)) as Record<string, string[]>;
+
+        const matchingActs: string[] = [];
+        const clashingActs: Record<string, string[]> = {};
+
         let selectedActs: string[] = [];
+        const actTimesSelected: Record<string, number> = {};
         for (const theseActs of Object.values(room)) {
             for (const thisAct of theseActs as string[]) {
                 if (!selectedActs.includes(thisAct)) selectedActs.push(thisAct);
+                actTimesSelected[thisAct] = (actTimesSelected[thisAct] || 0) + 1;
             }
         }
         const filteredActs = acts.filter((act: any) => selectedActs.includes(act.name));
 
-        return res.json({ filteredActs, room });
+        for (const [thisAct, timesSelected] of Object.entries(actTimesSelected)) {
+            if (timesSelected > 1) {
+                matchingActs.push(thisAct);
+            }
+        }
+
+        for (const act of filteredActs) {
+            for (const secondAct of filteredActs) {
+                if (act.name === secondAct.name) continue;
+
+                if (act.startTime < secondAct.endTime && act.endTime > secondAct.startTime) {
+                    clashingActs[act.name] = [...(clashingActs[act.name] || []), secondAct.name];
+                }
+            }
+        }
+
+        console.log(clashingActs);
+
+        return res.json({ filteredActs, room, matchingActs, clashingActs });
     } catch (err) {
+        console.error(err);
         return res.sendStatus(404);
     }
 

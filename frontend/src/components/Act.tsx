@@ -9,9 +9,11 @@ type ActProps = {
     selected?: boolean;
     imageUrl?: string;
     onClick?: React.MouseEventHandler<HTMLDivElement>;
+    matching?: boolean;
+    clashing?: string[];
 };
 
-const Act = ({ name, imageUrl, stage, timeStart, timeEnd, selected, onClick }: ActProps) => {
+const Act = ({ name, imageUrl, stage, timeStart, timeEnd, selected, onClick, matching, clashing }: ActProps) => {
     const start = new Date(timeStart).toLocaleString('en-GB', {
         weekday: 'long',
         hour: '2-digit',
@@ -23,7 +25,13 @@ const Act = ({ name, imageUrl, stage, timeStart, timeEnd, selected, onClick }: A
     });
 
     return (
-        <div className={`act-container ${selected ? 'selected' : ''}`} onClick={onClick}>
+        <div
+            className={`act-container ${selected ? 'selected' : ''} ${matching ? 'matching' : ''} ${
+                clashing ? 'clashing' : ''
+            }`}
+            onClick={onClick}
+            title={clashing && `Clashes with ${clashing.join(', ')}`}
+        >
             <div className="act-photo">
                 <img src={imageUrl} alt={name} />
             </div>

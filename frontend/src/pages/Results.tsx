@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { apiUrl } from '../utils';
 import type acts from '../shared/acts.json';
 import Act from '../components/Act';
@@ -9,15 +9,24 @@ const Results = () => {
     const { roomId } = useParams();
     const [loading, setLoading] = useState(true);
     const [selectedActs, setSelectedActs] = useState<Record<string, typeof acts>>({});
+    const [matchingActs, setMatchingActs] = useState<string[]>([]);
+    const [clashingActs, setClashingActs] = useState<Record<string, string[]>>({});
 
     const getResults = async () => {
         try {
             const resp = await axios.get(`${apiUrl}/results/${roomId}`);
-            const { filteredActs, room } = resp.data as { filteredActs: typeof acts; room: Record<string, string[]> };
+            const { filteredActs, room, matchingActs, clashingActs } = resp.data as {
+                filteredActs: typeof acts;
+                room: Record<string, string[]>;
+                matchingActs: string[];
+                clashingActs: Record<string, string[]>;
+            };
+
+            setMatchingActs(matchingActs);
+            setClashingActs(clashingActs);
 
             const userSelectedActs: Record<string, typeof acts> = {};
             for (const [name, selections] of Object.entries(room)) {
-                console.log(name, selections);
                 const gotActs = filteredActs.filter((act) => selections.includes(act.name));
                 userSelectedActs[name] = gotActs;
             }
@@ -44,19 +53,21 @@ const Results = () => {
             <div>
                 {personActsEntries.map(([person, acts]) => {
                     return (
-                        <div>
+                        <div key={person}>
                             <div>
                                 <h2 key={person}>{person}</h2>
                             </div>
                             <div className="content">
                                 {acts.map((act, index) => (
                                     <Act
-                                        key={`${act.name}-${index}`}
+                                        key={`${person}-${act.name}-${index}`}
                                         name={act.name}
                                         imageUrl={act.imageUrl}
                                         stage={act.stage}
                                         timeStart={act.startTime}
                                         timeEnd={act.endTime}
+                                        matching={matchingActs.includes(act.name)}
+                                        clashing={clashingActs[act.name]}
                                     />
                                 ))}
                             </div>
